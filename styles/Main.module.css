@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Freesentation-9Black";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+        format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    position: relative;
+    width: 95vw;
+    text-align: center;
+    font-family: "Freesentation-9Black", sans-serif;
+}
+
+.subcontainer {
+    margin: auto;
+    top: 50%;
+    left: 50%;
+}
+
+.title {
+    font-size: 3.4rem;
+    font-weight: bolder;
+}
+.subtitle {
+    position: fixed;
+    align-self: flex-start;
+    font-size: 2rem;
+    color: rgba(128, 128, 128, 0.377);
+    top: 0;
+    right: 2rem;
+}
+
+.subsubtitle {
+    position: fixed;
+    align-self: flex-start;
+    font-size: 2rem;
+    color: rgba(128, 128, 128, 0.377);
+    top: 0;
+    left: 2rem;
+}
+
+.btn1 {
+    font-family: "Freesentation-9Black", sans-serif;
+    position: relative;
+    border: none;
+    margin: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: 1.8rem;
+    transition: 0.25s;
+    background-color: aliceblue;
+    border: 3px solid aliceblue;
+    color: #1e6b7b;
+}
+
+.btn1:hover {
+    color: #1e6b7b;
+    background: aliceblue;
+}
+
+.btn1:active {
+    transform: scale(1.5);
+}
+
+.btn2 {
+    font-family: "Freesentation-9Black", sans-serif;
+    position: relative;
+    border: none;
+    margin: 1rem;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.25s;
+    background-color: #77af9c;
+    border: 3px solid #77af9c;
+    color: #eaf8f3;
+}
+
+.btn2:hover {
+    background-color: #77af9c;
+    color: #d7fff1;
+}
+
+.btn2:active {
+    transform: scale(1.5);
+}
+
+.friend {
+    font-family: "Freesentation-9Black", sans-serif;
+    font-size: 1.7rem;
+    transition: 0.25s;
+    padding: 1rem;
+}
